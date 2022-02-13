@@ -1,0 +1,36 @@
+body{
+    margin-top: 0%;
+    padding: 0%;
+    
+}
+.header{ 
+    height: 6%;
+    width: 100%;
+    position: absolute;
+    left: 0;   
+    background-color: #ee5b32;
+}
+
+span{
+    
+    float: right;
+}
+
+#search{
+    width: 40%;
+    margin-left: 10px;
+    border: none;
+    border-radius: 2px 2px 2px 2px;
+}
+.carrito{
+    padding: 6px;
+    font-size: 8px;
+    color: #fff;
+}
+#img_carrito{
+    padding-right: 3px;
+    vertical-align: middle;
+    color: white;
+    width: 15px;
+    height: 15px;
+}
