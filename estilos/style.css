@@ -1,36 +1,38 @@
-body{
-    margin-top: 0%;
-    padding: 0%;
-    
-}
-.header{ 
-    height: 6%;
+html, body{
     width: 100%;
-    position: absolute;
+    margin: 0;
+    padding: 0; 
+}
+div, header{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+#my-header{
+    height: 5.5%;   
     left: 0;   
-    background-color: #ee5b32;
+    background-color: #e4c8c0;
 }
 
-span{
-    
-    float: right;
+#parte1{    
+    width: 25%;
+    background-color: aqua;
+}
+#parte2{    
+    width: 25%;
+    background-color: aqua;
 }
 
-#search{
-    width: 40%;
-    margin-left: 10px;
-    border: none;
-    border-radius: 2px 2px 2px 2px;
+#parte3{
+    width: 25%;
+    background-color: aqua;
 }
-.carrito{
-    padding: 6px;
-    font-size: 8px;
-    color: #fff;
-}
-#img_carrito{
-    padding-right: 3px;
-    vertical-align: middle;
-    color: white;
-    width: 15px;
-    height: 15px;
+#parte4{
+    width: 23%;
+    background-color: aqua;
 }
