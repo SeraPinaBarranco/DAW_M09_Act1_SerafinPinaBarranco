@@ -1,33 +1,28 @@
-html, body{
+*{
     width: 100%;
     margin: 0;
-    padding: 0; 
-}
-div, header{
-    width: 100%;
-    display: inline-block;
-    position: relative;
-    vertical-align: top;
-    top: 0;
-    left: 0;
     padding: 0;
-    margin: 0;
+    border: 0; 
 }
+
 #my-header{
-    height: 5.5%;   
-    left: 0;   
+    /* border: 1px solid red; */
+    border: 0;
+    height: 5;   
     background-color: #e4c8c0;
 }
 
 #parte1{    
-    width: 25%;
+    display: inline-block; 
+    width: 50%;
     background-color: aqua;
 }
-#parte2{    
-    width: 25%;
+#parte2{   
+    display: inline-block; 
+    width: 50%;
     background-color: aqua;
 }
-
+/*
 #parte3{
     width: 25%;
     background-color: aqua;
@@ -35,4 +30,4 @@ div, header{
 #parte4{
     width: 23%;
     background-color: aqua;
-}
+} */
