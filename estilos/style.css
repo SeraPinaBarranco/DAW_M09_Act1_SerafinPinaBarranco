@@ -5,29 +5,36 @@
     border: 0; 
 }
 
-#my-header{
-    /* border: 1px solid red; */
-    border: 0;
-    height: 5;   
-    background-color: #e4c8c0;
+#my-header{ 
+    display: flex;
+    
+    padding: 2px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ee5b32;
 }
 
-#parte1{    
-    display: inline-block; 
-    width: 50%;
-    background-color: aqua;
+
+
+#my-header img{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    
 }
-#parte2{   
-    display: inline-block; 
-    width: 50%;
-    background-color: aqua;
+
+#div-carrito{
+    width: 15%;
+    align-self: flex-end;
 }
-/*
-#parte3{
+
+#my-header a{
+    text-decoration: none;
+    color: white;
+}
+
+#input-search{
+    
     width: 25%;
-    background-color: aqua;
+    align-self: flex-end;
 }
-#parte4{
-    width: 23%;
-    background-color: aqua;
-} */
