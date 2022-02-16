@@ -1,40 +1,23 @@
+
 *{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0; 
+    border: 1px solid blue;
 }
-
-#my-header{ 
+.my-header{
+    width: 50%;
     display: flex;
+    flex-direction: row;
     
-    padding: 2px;
+  
+    justify-content: flex-end;
+    background-color: rgb(233, 79, 7);
     width: 100%;
-    margin: 0 auto;
-    background-color: #ee5b32;
 }
 
-
-
-#my-header img{
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    
-}
-
-#div-carrito{
-    width: 15%;
+.div2{
     align-self: flex-end;
 }
 
-#my-header a{
-    text-decoration: none;
-    color: white;
-}
-
-#input-search{
-    
-    width: 25%;
-    align-self: flex-end;
+.icon{
+    width: 25px;
+    height: 25px;
 }
