@@ -71,7 +71,7 @@ button{
     width: 53%;
     margin: 0 auto;
 }
-.div-imagen-creative{
+.div-imagen-creative, .imagen-grande{
     box-sizing: border-box;
 }
 
@@ -87,3 +87,13 @@ button{
     margin-left: 30px;
 }
 
+.seccion-imagen-central{
+    text-align: right;
+}
+
+.imagen-grande{
+    margin: 0 auto;
+    background-color: brown;
+    width: 50%;
+    height: 600px;
+}
