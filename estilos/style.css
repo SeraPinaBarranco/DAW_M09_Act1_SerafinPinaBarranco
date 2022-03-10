@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 
@@ -88,12 +89,33 @@ button{
 }
 
 .seccion-imagen-central{
-    text-align: right;
+    width: 50%;
+    margin: 0 auto;    
 }
 
 .imagen-grande{
     margin: 0 auto;
     background-color: brown;
-    width: 50%;
     height: 600px;
+}
+
+.img-grande{
+    height: 100%;
+    width: 100%;
+}
+.view-all{
+    text-align: right;
+}
+.feature{
+    margin-top: 0px;
+    margin: 0 auto;    
+    font-size: xx-large;
+    
+    /*display: inline;*/
+}
+
+.linea_azul{
+    background-color: #00b5da;
+    height: 20px;
+    margin-top: 5px;
 }
