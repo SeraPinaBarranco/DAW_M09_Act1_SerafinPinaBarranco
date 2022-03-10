@@ -7,6 +7,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
+div{border: 1px solid red;}
 
 .caja1{    
     background-color: rgb(178, 129, 224);  
@@ -122,40 +123,76 @@ button{
     margin-top: 5px;
 }
 
-.tres_imagenes, .enlacesImagenes{
-    width: 60%;
+.tres_imagenes{
+    box-sizing: border-box;
     text-align: center;
     margin: 0 auto;
+    width: 55%;
 }
 
-.tres_imagenes{
-   margin-top: 30px;
-   margin-bottom: 50px;
+.contenedorfoto1, .contenedorfoto2, .contenedorfoto3{
+    display: inline-block;
+    width: 33%;
+    height: 255px;
 }
 
-.cap-monedas{
-    border: 1 solid black;
-    float: left;
-    width: 30%;
+.texto12{                                
+    font-size: 12px;
 }
 
-.cap-cc{
-    margin-left: 40px;
-    border: 1 solid black;
-    float: left;
-    width: 30%;
+.img1, .img3{
+    width: 250px;
+    
+    height: 250px;
 }
 
-.cap-grande{
-    float: right;
-     width: 30%;
+.img2{
+    padding-bottom: 193px;
 }
 
-.cap-monedas a, .cap-cc a,.cap-grande a{ 
-    font-size: 12px;   
-    text-decoration: none;
-}
 
 .seccion-feature-collection{
     margin-top: 130px;
+}
+
+.lineaAzul{
+    margin: 0 auto;
+    height: 20px;
+    width: 60%;
+    background-color: #00b5da;
+}
+
+.featureColl{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+    font-size: xx-large;
+}
+
+.parrafoLargo{
+    font-size: 12px;
+}
+.rrss{
+    margin-top: 10px;
+    text-align: center;
+}
+.rrss div{
+    display: inline-block;
+    width: 40%;
+    height: 40%;
+}
+.parrafoLargo a{
+    text-decoration: none;
+    color: #049ccf;
+}
+.divTw{
+    text-align: right;
+}
+.divFc{
+    text-align: left;
+}
+
+.twitter, .facebook{
+    width: 32px;
+    height: 32px;
 }
