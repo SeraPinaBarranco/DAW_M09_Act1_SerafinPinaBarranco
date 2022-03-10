@@ -115,7 +115,47 @@ button{
 }
 
 .linea_azul{
+    margin: 0 auto;
+    width: 60%;
     background-color: #00b5da;
     height: 20px;
     margin-top: 5px;
+}
+
+.tres_imagenes, .enlacesImagenes{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tres_imagenes{
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
+
+.cap-monedas{
+    border: 1 solid black;
+    float: left;
+    width: 30%;
+}
+
+.cap-cc{
+    margin-left: 40px;
+    border: 1 solid black;
+    float: left;
+    width: 30%;
+}
+
+.cap-grande{
+    float: right;
+     width: 30%;
+}
+
+.cap-monedas a, .cap-cc a,.cap-grande a{ 
+    font-size: 12px;   
+    text-decoration: none;
+}
+
+.seccion-feature-collection{
+    margin-top: 130px;
 }
