@@ -7,10 +7,11 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-div{border: 1px solid red;}
-
+a{
+    text-decoration: none;
+}
 .caja1{    
-    background-color: rgb(178, 129, 224);  
+    background-color: #ee5b32;  
 }
 .div1{
     text-align: right;
@@ -18,10 +19,8 @@ div{border: 1px solid red;}
     padding-bottom: 12px;
     width: 50%;   
     margin: 0 auto;   
-    background-color: blueviolet;
+    background-color: #ee5b32;
 }
-
-
 
 .icon{
     vertical-align: middle;
@@ -30,28 +29,14 @@ div{border: 1px solid red;}
 }
 .div1 a{
     margin-right: 15px;
-    text-decoration: none;
+   
     color:white;
 }
-/* .srch{
-    padding: 5px; 
-    display: inline;
-    height: 160px;
-    border-radius: 3px 3px 3px 3px;
-    background-color: rgb(255, 255, 255);
-       
-} */
 
-.span-imagen{
-    
+.span-imagen{    
     background-color: rgb(136, 88, 88);
 }
-/* .icon-search{
-    padding-top: 14px;
-    padding-bottom: 8px;
-    border-radius: 3px 0px 0px 3px;     
-    background-color: white;    
-} */
+
 button{
     background-color: white;
     padding: 9px;
@@ -59,9 +44,7 @@ button{
     border-top: 1px solid white;
     border-radius: 3px 0px 0px 3px;
 }
-.input-search{    
-    /* margin-right: 4px; */
-       
+.input-search{  
     border-radius: 0px 3px 3px 0px;
     border: none;
     height: 35px;
@@ -69,24 +52,38 @@ button{
 }
 
 .cuerpo{
-    background-color: aquamarine;
+    background-color: #ffffff;
     width: 53%;
+    height: 90px;
     margin: 0 auto;
-}
-.div-imagen-creative, .imagen-grande{
-    box-sizing: border-box;
+    vertical-align:middle;
 }
 
-.links{
-    margin-right: 20px;
+.div-imagen-creative, .links{
+    display: inline-block;
+}
+
+.div-imagen-creative{
+    margin-left: 25px;
+    width: 45%;    
+}
+
+.imagen-creative{
+    height: 80px;
+}
+
+.links{  
+    vertical-align: top;  
+    text-align: right;
+    width: 52%;
+    height: 80px;    
 }
 .imagen-creative{
     margin-right: 150px;
 }
-.nav-link{
-    font-size: 30px;
-    text-decoration: none;
-    margin-left: 30px;
+.div-nav-link{    
+    font-size: 20px;
+    padding-top: 30px;
 }
 
 .seccion-imagen-central{
@@ -95,8 +92,7 @@ button{
 }
 
 .imagen-grande{
-    margin: 0 auto;
-    background-color: brown;
+    margin: 0 auto;    
     height: 600px;
 }
 
@@ -141,15 +137,13 @@ button{
 }
 
 .img1, .img3{
-    width: 250px;
-    
+    width: 250px;    
     height: 250px;
 }
 
 .img2{
     padding-bottom: 193px;
 }
-
 
 .seccion-feature-collection{
     margin-top: 130px;
@@ -169,7 +163,7 @@ button{
     font-size: xx-large;
 }
 
-.parrafoLargo{
+.parrafoLargo, .texto-pie, .view-all{
     font-size: 12px;
 }
 .rrss{
@@ -182,7 +176,7 @@ button{
     height: 40%;
 }
 .parrafoLargo a{
-    text-decoration: none;
+    
     color: #049ccf;
 }
 .divTw{
@@ -195,4 +189,31 @@ button{
 .twitter, .facebook{
     width: 32px;
     height: 32px;
+}
+
+.pie{
+    vertical-align: top;
+    text-align: center;
+    margin: 0 auto;    
+    width: 50%;
+}
+.div-texto-pie{
+    vertical-align: top;
+    width: 45%;    
+    display: inline-block;
+}
+
+.div-pagos{
+    text-align: right;
+    width: 45%;
+    display: inline-block;
+}
+
+.div-ico-pagos{
+    display: inline-block;
+}
+
+.ico-pagos{
+    width: 25px;
+    height: 25px;
 }
